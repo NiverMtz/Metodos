@@ -18,6 +18,14 @@ public class Main {
 
         System.out.println(Math.ceil(n1));
         System.out.println(Math.floor(n2));
+
+        String mensaje1 = "HOOOOOOOOOOLA - mensaje 1";
+        String mensaje2 = "HOLA - mensaje 2";
+        System.out.println(mensaje1.length());
+        System.out.println(mensaje1.isEmpty());
+        System.out.println(mensaje1.concat(mensaje2));
+        System.out.println(mensaje1.equalsIgnoreCase(mensaje2));
+        System.out.println(mensaje1.compareTo(mensaje2));
     }
 
     public static String saludar(String nombre) {
